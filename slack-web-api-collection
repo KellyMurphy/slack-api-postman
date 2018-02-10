@@ -140,7 +140,7 @@
 				{
 					"id": "d038ef96-2fbc-2cb2-ed9e-5a2fdb91171d",
 					"headers": "",
-					"url": "https://slack.com/api/channels.archive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.archive?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -172,7 +172,7 @@
 					"headers": "",
 					"method": "GET",
 					"pathVariables": {},
-					"url": "https://slack.com/api/channels.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+					"url": "https://slack.com/api/channels.create?token={{token}}&name=mychannel",
 					"preRequestScript": "",
 					"tests": "",
 					"currentHelper": "normal",
@@ -199,7 +199,7 @@
 					"headers": "",
 					"method": "GET",
 					"pathVariables": {},
-					"url": "https://slack.com/api/channels.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+					"url": "https://slack.com/api/channels.history?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 					"preRequestScript": "",
 					"tests": "",
 					"currentHelper": "normal",
@@ -213,7 +213,7 @@
 				{
 					"id": "b094817a-2f00-559f-5140-810e5e5e63e5",
 					"headers": "",
-					"url": "https://slack.com/api/channels.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+					"url": "https://slack.com/api/channels.info?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -232,7 +232,7 @@
 				{
 					"id": "a45ce303-8a81-07e2-5537-a9cd1b87ecb9",
 					"headers": "",
-					"url": "https://slack.com/api/channels.join?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+					"url": "https://slack.com/api/channels.join?token={{token}}&name=mychannel",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -252,7 +252,7 @@
 				{
 					"id": "55102e00-db67-7ce9-9e7a-96c9ebf7179d",
 					"headers": "",
-					"url": "https://slack.com/api/channels.kick?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&user=U1234567890",
+					"url": "https://slack.com/api/channels.kick?token={{token}}&channel=C1234567890&user=U1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -271,7 +271,7 @@
 				{
 					"id": "5461ce2d-fc8c-04e0-9dbb-e9b1fb727746",
 					"headers": "",
-					"url": "https://slack.com/api/channels.leave?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.leave?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -290,7 +290,7 @@
 				{
 					"id": "a941a0be-3434-d291-2eaa-c2fa3042fe00",
 					"headers": "",
-					"url": "https://slack.com/api/channels.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&exclude_archived=0",
+					"url": "https://slack.com/api/channels.list?token={{token}}&exclude_archived=0",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -309,7 +309,7 @@
 				{
 					"id": "314695f5-7ad4-e859-4e08-f75c86ffff9f",
 					"headers": "",
-					"url": "https://slack.com/api/channels.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&ts=1234567890",
+					"url": "https://slack.com/api/channels.mark?token={{token}}&channel=C1234567890&ts=1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -328,7 +328,7 @@
 				{
 					"id": "7575bc99-000e-0de7-2346-4fe788f633af",
 					"headers": "",
-					"url": "https://slack.com/api/channels.rename?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&name=channel-name",
+					"url": "https://slack.com/api/channels.rename?token={{token}}&channel=C1234567890&name=channel-name",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -347,7 +347,7 @@
 				{
 					"id": "34e00678-a61c-09cf-fea5-8b98d15ed0cb",
 					"headers": "",
-					"url": "https://slack.com/api/channels.setPurpose?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&purpose=My Purpose",
+					"url": "https://slack.com/api/channels.setPurpose?token={{token}}&channel=C1234567890&purpose=My Purpose",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -366,7 +366,7 @@
 				{
 					"id": "72d3421b-e931-ab3d-825d-a1124599ea0e",
 					"headers": "",
-					"url": "https://slack.com/api/channels.setTopic?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&topic=The New Topic",
+					"url": "https://slack.com/api/channels.setTopic?token={{token}}&channel=C1234567890&topic=The New Topic",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -385,7 +385,7 @@
 				{
 					"id": "79298602-4231-fbec-d99d-b4c480163f2f",
 					"headers": "",
-					"url": "https://slack.com/api/channels.unarchive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.unarchive?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -433,7 +433,7 @@
 				{
 					"id": "5b7dc19b-abc5-e1e9-f75f-82f85a9e47ec",
 					"headers": "",
-					"url": "https://slack.com/api/im.close?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890",
+					"url": "https://slack.com/api/im.close?token={{token}}&channel=D1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -452,7 +452,7 @@
 				{
 					"id": "88562cbd-0cb8-d35f-d051-e2f47627ad32",
 					"headers": "",
-					"url": "https://slack.com/api/im.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
+					"url": "https://slack.com/api/im.history?token={{token}}&channel=D1234567890&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -471,7 +471,7 @@
 				{
 					"id": "37fd6c5c-c6ef-f281-b028-e3e747b85fc3",
 					"headers": "",
-					"url": "https://slack.com/api/im.read?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+					"url": "https://slack.com/api/im.read?token={{token}}",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -490,7 +490,7 @@
 				{
 					"id": "8b856b7e-ca86-c726-2e0b-0184cb6376f4",
 					"headers": "",
-					"url": "https://slack.com/api/im.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&ts=1234567890",
+					"url": "https://slack.com/api/im.mark?token={{token}}&channel=D1234567890&ts=1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -509,7 +509,7 @@
 				{
 					"id": "0ccc6862-a9a1-05e5-5511-34eda33de0c5",
 					"headers": "",
-					"url": "https://slack.com/api/im.open?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&user=U1234567890",
+					"url": "https://slack.com/api/im.open?token={{token}}&channel=D1234567890&user=U1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -555,7 +555,7 @@
 					"headers": "",
 					"method": "GET",
 					"pathVariables": {},
-					"url": "https://slack.com/api/auth.test?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+					"url": "https://slack.com/api/auth.test?token={{token}}",
 					"preRequestScript": "",
 					"tests": "",
 					"currentHelper": "normal",
@@ -595,7 +595,7 @@
 				{
 					"id": "6462f01e-7c81-077d-87f7-f8313075148e",
 					"headers": "",
-					"url": "https://slack.com/api/pins.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
+					"url": "https://slack.com/api/pins.add?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -615,7 +615,7 @@
 				{
 					"id": "b659b5e5-f890-5fea-76ee-48a7027a8069",
 					"headers": "",
-					"url": "https://slack.com/api/pins.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/pins.list?token={{token}}&channel=C1234567890",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -635,7 +635,7 @@
 				{
 					"id": "e3ccccfb-f485-a78a-fc91-5a65bae231fa",
 					"headers": "",
-					"url": "https://slack.com/api/pins.remove?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
+					"url": "https://slack.com/api/pins.remove?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -689,7 +689,7 @@
 				{
 					"id": "295d54f7-1783-03aa-1584-57ba93d76884",
 					"headers": "",
-					"url": "https://slack.com/api/pins.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
+					"url": "https://slack.com/api/pins.add?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -709,7 +709,7 @@
 				{
 					"id": "29643db9-26e1-4ba9-c350-e130185b970e",
 					"headers": "",
-					"url": "https://slack.com/api/pins.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/pins.list?token={{token}}&channel=C1234567890",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -729,7 +729,7 @@
 				{
 					"id": "c2b7de30-ce31-3c2e-a87e-eab2b2d69c85",
 					"headers": "",
-					"url": "https://slack.com/api/pins.remove?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
+					"url": "https://slack.com/api/pins.remove?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -786,7 +786,7 @@
 				{
 					"id": "7d159a5d-e45f-4549-fa32-408b028f4534",
 					"headers": "",
-					"url": "https://slack.com/api/usergroups.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=My Test Team&handle=&description&channels&include_count=1",
+					"url": "https://slack.com/api/usergroups.create?token={{token}}&name=My Test Team&handle=&description&channels&include_count=1",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -807,7 +807,7 @@
 				{
 					"id": "f50ca631-1278-ed49-f072-be4354f05378",
 					"headers": "",
-					"url": "https://slack.com/api/usergroups.disable?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&include_count=1",
+					"url": "https://slack.com/api/usergroups.disable?token={{token}}&usergroup=S0604QSJC&include_count=1",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -828,7 +828,7 @@
 				{
 					"id": "c4eec93a-8919-f61a-00e3-b73ff75056c9",
 					"headers": "",
-					"url": "https://slack.com/api/usergroups.enable?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&include_count=1",
+					"url": "https://slack.com/api/usergroups.enable?token={{token}}&usergroup=S0604QSJC&include_count=1",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -849,7 +849,7 @@
 				{
 					"id": "84686c90-2a4d-58f4-fc7b-375276b2bbb4",
 					"headers": "",
-					"url": "https://slack.com/api/usergroups.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&include_disabled=1&include_count=1&include_users=1",
+					"url": "https://slack.com/api/usergroups.list?token={{token}}&include_disabled=1&include_count=1&include_users=1",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -869,7 +869,7 @@
 				{
 					"id": "ffffed35-b133-572c-ada8-a62b58409937",
 					"headers": "",
-					"url": "https://slack.com/api/usergroups.update?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&name=My Test Team\t&handle=&description=&channels&include_count=1",
+					"url": "https://slack.com/api/usergroups.update?token={{token}}&usergroup=S0604QSJC&name=My Test Team\t&handle=&description=&channels&include_count=1",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -908,7 +908,7 @@
 				{
 					"id": "942a34d1-0091-f2d6-dc1b-3868e93e3c28",
 					"headers": "",
-					"url": "https://slack.com/api/channels.archive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.archive?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -941,7 +941,7 @@
 					"headers": "",
 					"method": "GET",
 					"pathVariables": {},
-					"url": "https://slack.com/api/channels.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+					"url": "https://slack.com/api/channels.create?token={{token}}&name=mychannel",
 					"preRequestScript": "",
 					"tests": "",
 					"currentHelper": "normal",
@@ -969,7 +969,7 @@
 					"headers": "",
 					"method": "GET",
 					"pathVariables": {},
-					"url": "https://slack.com/api/channels.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+					"url": "https://slack.com/api/channels.history?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 					"preRequestScript": "",
 					"tests": "",
 					"currentHelper": "normal",
@@ -984,7 +984,7 @@
 				{
 					"id": "9ada32f4-c772-ed00-0cde-7c981cda23f3",
 					"headers": "",
-					"url": "https://slack.com/api/channels.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+					"url": "https://slack.com/api/channels.info?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1003,7 +1003,7 @@
 				{
 					"id": "ec5a348f-f078-3205-1e4e-6747d2d8c539",
 					"headers": "",
-					"url": "https://slack.com/api/channels.invite?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&user=U1234567890",
+					"url": "https://slack.com/api/channels.invite?token={{token}}&channel=C1234567890&user=U1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1023,7 +1023,7 @@
 				{
 					"id": "8e7f2ad4-864c-8870-6512-7f45a974aadb",
 					"headers": "",
-					"url": "https://slack.com/api/channels.join?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+					"url": "https://slack.com/api/channels.join?token={{token}}&name=mychannel",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1043,7 +1043,7 @@
 				{
 					"id": "7ab83a11-bb11-1747-9df9-fd65aadb91d0",
 					"headers": "",
-					"url": "https://slack.com/api/channels.kick?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&user=U1234567890",
+					"url": "https://slack.com/api/channels.kick?token={{token}}&channel=C1234567890&user=U1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1063,7 +1063,7 @@
 				{
 					"id": "b6610bcb-c567-ff80-ff4e-4dce08c19e56",
 					"headers": "",
-					"url": "https://slack.com/api/channels.leave?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.leave?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1083,7 +1083,7 @@
 				{
 					"id": "8f5ced17-5152-9e76-7113-f3c2e877b031",
 					"headers": "",
-					"url": "https://slack.com/api/channels.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&exclude_archived=0",
+					"url": "https://slack.com/api/channels.list?token={{token}}&exclude_archived=0",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1102,7 +1102,7 @@
 				{
 					"id": "5b02d755-dd8f-88af-d226-d5ee3a14a773",
 					"headers": "",
-					"url": "https://slack.com/api/channels.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&ts=1234567890",
+					"url": "https://slack.com/api/channels.mark?token={{token}}&channel=C1234567890&ts=1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1122,7 +1122,7 @@
 				{
 					"id": "7564f709-bc29-5394-955c-6c866eab6d55",
 					"headers": "",
-					"url": "https://slack.com/api/channels.rename?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&name=channel-name",
+					"url": "https://slack.com/api/channels.rename?token={{token}}&channel=C1234567890&name=channel-name",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1142,7 +1142,7 @@
 				{
 					"id": "56f84ca4-de65-427b-7009-ac2808022c39",
 					"headers": "",
-					"url": "https://slack.com/api/channels.setPurpose?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&purpose=My Purpose",
+					"url": "https://slack.com/api/channels.setPurpose?token={{token}}&channel=C1234567890&purpose=My Purpose",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1162,7 +1162,7 @@
 				{
 					"id": "98b254a6-ed56-963d-7d81-5cc35051c253",
 					"headers": "",
-					"url": "https://slack.com/api/channels.setTopic?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&topic=The New Topic",
+					"url": "https://slack.com/api/channels.setTopic?token={{token}}&channel=C1234567890&topic=The New Topic",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1182,7 +1182,7 @@
 				{
 					"id": "47c216d2-4dfa-e3b3-de5d-389aab5905d0",
 					"headers": "",
-					"url": "https://slack.com/api/channels.unarchive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+					"url": "https://slack.com/api/channels.unarchive?token={{token}}&channel=C1234567890",
 					"preRequestScript": "",
 					"pathVariables": {},
 					"method": "GET",
@@ -1210,7 +1210,7 @@
 		{
 			"id": "09be5188-3b1e-b152-ad7f-775a14670f18",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.endSnooze?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/dnd.endSnooze?token={{token}}",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1229,7 +1229,7 @@
 		{
 			"id": "0ccc6862-a9a1-05e5-5511-34eda33de0c5",
 			"headers": "",
-			"url": "https://slack.com/api/mpim.open?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&users=U1234567890,U2345678901,U345678901",
+			"url": "https://slack.com/api/mpim.open?token={{token}}&users=U1234567890,U2345678901,U345678901",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1246,7 +1246,7 @@
 		{
 			"id": "0cd21558-3f57-0741-f55b-5118abd0c9af",
 			"headers": "",
-			"url": "https://slack.com/api/groups.close?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.close?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1263,7 +1263,7 @@
 		{
 			"id": "0e86e908-556e-0960-5ec1-7f826fed08ea",
 			"headers": "",
-			"url": "https://slack.com/api/pins.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+			"url": "https://slack.com/api/pins.list?token={{token}}&channel=C1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1281,7 +1281,7 @@
 		{
 			"id": "0e93ad73-fd6c-9c1f-d50a-713f1dae73ec",
 			"headers": "",
-			"url": "https://slack.com/api/files.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&count=100&page=1",
+			"url": "https://slack.com/api/files.info?token={{token}}&file=F1234567890&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1318,7 +1318,7 @@
 		{
 			"id": "14642aef-d24e-bd53-4585-713c22e88ed7",
 			"headers": "",
-			"url": "https://slack.com/api/files.upload?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=&content&filetype=php&filename=foo.txt&title=My File&initial_comment=Best!\t&channels=C1234567890\t",
+			"url": "https://slack.com/api/files.upload?token={{token}}&file=&content&filetype=php&filename=foo.txt&title=My File&initial_comment=Best!\t&channels=C1234567890\t",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1337,7 +1337,7 @@
 		{
 			"id": "17054eb0-f5f5-c2eb-46a4-68185dbf9eb5",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.teamInfo?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&users=U1234,U4567",
+			"url": "https://slack.com/api/dnd.teamInfo?token={{token}}&users=U1234,U4567",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1356,7 +1356,7 @@
 		{
 			"id": "18de69c0-f757-2e79-520a-0915bb982dcf",
 			"headers": "",
-			"url": "https://slack.com/api/groups.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+			"url": "https://slack.com/api/groups.create?token={{token}}&name=mychannel",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1373,7 +1373,7 @@
 		{
 			"id": "210a141e-e1fb-c162-2247-59b659a2e84a",
 			"headers": "",
-			"url": "https://slack.com/api/channels.unarchive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+			"url": "https://slack.com/api/channels.unarchive?token={{token}}&channel=C1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1407,7 +1407,7 @@
 		{
 			"id": "277ab8e9-94fa-a0af-56fc-fa13c14f42ba",
 			"headers": "",
-			"url": "https://slack.com/api/channels.leave?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+			"url": "https://slack.com/api/channels.leave?token={{token}}&channel=C1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1424,7 +1424,7 @@
 		{
 			"id": "28f46524-58bc-a49b-3503-c69393bfecb3",
 			"headers": "",
-			"url": "https://slack.com/api/groups.invite?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&user=U1234567890",
+			"url": "https://slack.com/api/groups.invite?token={{token}}&channel=G1234567890&user=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1441,7 +1441,7 @@
 		{
 			"id": "295d54f7-1783-03aa-1584-57ba93d76884",
 			"headers": "",
-			"url": "https://slack.com/api/stars.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456",
+			"url": "https://slack.com/api/stars.add?token={{token}}&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1459,7 +1459,7 @@
 		{
 			"id": "29643db9-26e1-4ba9-c350-e130185b970e",
 			"headers": "",
-			"url": "https://slack.com/api/stars.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&users=U1234567890&count=100&page=1",
+			"url": "https://slack.com/api/stars.list?token={{token}}&users=U1234567890&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1477,7 +1477,7 @@
 		{
 			"id": "314695f5-7ad4-e859-4e08-f75c86ffff9f",
 			"headers": "",
-			"url": "https://slack.com/api/groups.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&ts=1234567890",
+			"url": "https://slack.com/api/groups.mark?token={{token}}&channel=G1234567890&ts=1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1494,7 +1494,7 @@
 		{
 			"id": "34e00678-a61c-09cf-fea5-8b98d15ed0cb",
 			"headers": "",
-			"url": "https://slack.com/api/groups.setPurpose?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&purpose=My Purpose",
+			"url": "https://slack.com/api/groups.setPurpose?token={{token}}&channel=G1234567890&purpose=My Purpose",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1529,7 +1529,7 @@
 		{
 			"id": "36d358be-24b9-75e8-23ca-bd3cc1a026cf",
 			"headers": "",
-			"url": "https://slack.com/api/im.close?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890",
+			"url": "https://slack.com/api/im.close?token={{token}}&channel=D1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1546,7 +1546,7 @@
 		{
 			"id": "37fd6c5c-c6ef-f281-b028-e3e747b85fc3",
 			"headers": "",
-			"url": "https://slack.com/api/mpim.read?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/mpim.read?token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1563,7 +1563,7 @@
 		{
 			"id": "3d20124e-4255-c38f-33b1-d1db1c52d0f8",
 			"headers": "",
-			"url": "https://slack.com/api/groups.createChild?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.createChild?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1580,7 +1580,7 @@
 		{
 			"id": "3fae2809-bb63-a18d-2c23-b57cef6c9a55",
 			"headers": "",
-			"url": "https://slack.com/api/groups.open?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.open?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1597,7 +1597,7 @@
 		{
 			"id": "418659cf-0efd-c906-c654-b29383ba83d6",
 			"headers": "",
-			"url": "https://slack.com/api/channels.archive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890",
+			"url": "https://slack.com/api/channels.archive?token={{token}}&channel=C1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1614,7 +1614,7 @@
 		{
 			"id": "4221aa61-cddf-9eb1-ceb1-61b6f911c62f",
 			"headers": "",
-			"url": "https://slack.com/api/channels.setTopic?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&topic=The New Topic",
+			"url": "https://slack.com/api/channels.setTopic?token={{token}}&channel=C1234567890&topic=The New Topic",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1631,7 +1631,7 @@
 		{
 			"id": "42e00e07-0368-ea8c-1117-e26903d10818",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.disable?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&include_count=1",
+			"url": "https://slack.com/api/usergroups.disable?token={{token}}&usergroup=S0604QSJC&include_count=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1649,7 +1649,7 @@
 		{
 			"id": "4438d825-10aa-e083-4edf-1b96f4279a58",
 			"headers": "",
-			"url": "https://slack.com/api/team.accessLogs?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&count=100&page=1",
+			"url": "https://slack.com/api/team.accessLogs?token={{token}}&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1668,7 +1668,7 @@
 		{
 			"id": "48a9805c-6385-4476-ca15-a5db5db21c1d",
 			"headers": "",
-			"url": "https://slack.com/api/chat.postMessage?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&text=Hello worlo&parse=full&link_names=1&attachments=[{\"pretext\": \"pre-hello\", \"text\": \"text-world\"}]&unfurl_links=true&unfurl_media=false&username=My Bot&as_user=true&icon_url=http://lorempixel.com/48/48&icon_emoji=:chart_with_upwards_trend:",
+			"url": "https://slack.com/api/chat.postMessage?token={{token}}&channel=C1234567890&text=Hello worlo&parse=full&link_names=1&attachments=[{\"pretext\": \"pre-hello\", \"text\": \"text-world\"}]&unfurl_links=true&unfurl_media=false&username=My Bot&as_user=true&icon_url=http://lorempixel.com/48/48&icon_emoji=:chart_with_upwards_trend:",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1687,7 +1687,7 @@
 		{
 			"id": "4901bf11-d363-1b1a-fb54-fd8c7f4cc069",
 			"headers": "",
-			"url": "https://slack.com/api/channels.setPurpose?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&purpose=My Purpose",
+			"url": "https://slack.com/api/channels.setPurpose?token={{token}}&channel=C1234567890&purpose=My Purpose",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1704,7 +1704,7 @@
 		{
 			"id": "4ac7ca61-9040-b32d-7305-fb711032e6a9",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=My Test Team&handle=&description&channels&include_count=1",
+			"url": "https://slack.com/api/usergroups.create?token={{token}}&name=My Test Team&handle=&description&channels&include_count=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1731,7 +1731,7 @@
 			"headers": "",
 			"method": "GET",
 			"pathVariables": {},
-			"url": "https://slack.com/api/channels.create?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+			"url": "https://slack.com/api/channels.create?token={{token}}&name=mychannel",
 			"preRequestScript": "",
 			"tests": "",
 			"currentHelper": "normal",
@@ -1741,7 +1741,7 @@
 		{
 			"id": "51859f72-c569-b4fb-9c29-816835a694ee",
 			"headers": "",
-			"url": "https://slack.com/api/channels.invite?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&user=U1234567890",
+			"url": "https://slack.com/api/channels.invite?token={{token}}&channel=C1234567890&user=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1758,7 +1758,7 @@
 		{
 			"id": "5409d3f9-421c-4a59-5a6e-03b801f1bc94",
 			"headers": "",
-			"url": "https://slack.com/api/im.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
+			"url": "https://slack.com/api/im.history?token={{token}}&channel=D1234567890&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1775,7 +1775,7 @@
 		{
 			"id": "5461ce2d-fc8c-04e0-9dbb-e9b1fb727746",
 			"headers": "",
-			"url": "https://slack.com/api/groups.leave?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.leave?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1792,7 +1792,7 @@
 		{
 			"id": "55102e00-db67-7ce9-9e7a-96c9ebf7179d",
 			"headers": "",
-			"url": "https://slack.com/api/groups.kick?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&user=U1234567890",
+			"url": "https://slack.com/api/groups.kick?token={{token}}&channel=G1234567890&user=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1809,7 +1809,7 @@
 		{
 			"id": "5b455104-00d4-6962-1456-5df28f944370",
 			"headers": "",
-			"url": "https://slack.com/api/im.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&ts=1234567890",
+			"url": "https://slack.com/api/im.mark?token={{token}}&channel=D1234567890&ts=1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1826,7 +1826,7 @@
 		{
 			"id": "5b7dc19b-abc5-e1e9-f75f-82f85a9e47ec",
 			"headers": "",
-			"url": "https://slack.com/api/mpim.close?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=",
+			"url": "https://slack.com/api/mpim.close?token={{token}}&channel=",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1843,7 +1843,7 @@
 		{
 			"id": "609cf608-d068-cec4-0f24-9b28d0f6b52c",
 			"headers": "",
-			"url": "https://slack.com/api/channels.join?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=mychannel",
+			"url": "https://slack.com/api/channels.join?token={{token}}&name=mychannel",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1860,7 +1860,7 @@
 		{
 			"id": "63a92ef2-7367-cd2c-50a7-8a34b0883075",
 			"headers": "",
-			"url": "https://slack.com/api/reactions.get?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456&full",
+			"url": "https://slack.com/api/reactions.get?token={{token}}&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456&full",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1878,7 +1878,7 @@
 		{
 			"id": "6462f01e-7c81-077d-87f7-f8313075148e",
 			"headers": "",
-			"url": "https://slack.com/api/reactions.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=thumbsup&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456",
+			"url": "https://slack.com/api/reactions.add?token={{token}}&name=thumbsup&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1896,7 +1896,7 @@
 		{
 			"id": "64e0d610-76a0-f3a4-a91a-0833a6702661",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.enable?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&include_count=1",
+			"url": "https://slack.com/api/usergroups.enable?token={{token}}&usergroup=S0604QSJC&include_count=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1914,7 +1914,7 @@
 		{
 			"id": "6b94e749-74f6-c555-28b3-a5343f8a36bf",
 			"headers": "",
-			"url": "https://slack.com/api/files.comments.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&comment=Everyone should take a moment to read this file.\t",
+			"url": "https://slack.com/api/files.comments.add?token={{token}}&file=F1234567890&comment=Everyone should take a moment to read this file.\t",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1933,7 +1933,7 @@
 		{
 			"id": "6f4e6814-4f37-3044-6b03-da91adbed7c5",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&user=U1234",
+			"url": "https://slack.com/api/dnd.info?token={{token}}&user=U1234",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -1952,7 +1952,7 @@
 		{
 			"id": "71486af5-1270-a98d-6da8-3cd57fb154ca",
 			"headers": "",
-			"url": "https://slack.com/api/channels.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&exclude_archived=0",
+			"url": "https://slack.com/api/channels.list?token={{token}}&exclude_archived=0",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1969,7 +1969,7 @@
 		{
 			"id": "72d3421b-e931-ab3d-825d-a1124599ea0e",
 			"headers": "",
-			"url": "https://slack.com/api/groups.setTopic?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&topic=The New Topic",
+			"url": "https://slack.com/api/groups.setTopic?token={{token}}&channel=G1234567890&topic=The New Topic",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1986,7 +1986,7 @@
 		{
 			"id": "73b6b32c-24bd-a881-b789-81394efcfbd5",
 			"headers": "",
-			"url": "https://slack.com/api/files.sharedPublicUrl?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890",
+			"url": "https://slack.com/api/files.sharedPublicUrl?token={{token}}&file=F1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2005,7 +2005,7 @@
 		{
 			"id": "74fecdc2-958b-7c55-d3aa-914023bba450",
 			"headers": "",
-			"url": "https://slack.com/api/im.read?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/im.read?token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2022,7 +2022,7 @@
 		{
 			"id": "7575bc99-000e-0de7-2346-4fe788f633af",
 			"headers": "",
-			"url": "https://slack.com/api/channels.rename?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&name=channel-name",
+			"url": "https://slack.com/api/channels.rename?token={{token}}&channel=G1234567890&name=channel-name",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2039,7 +2039,7 @@
 		{
 			"id": "79298602-4231-fbec-d99d-b4c480163f2f",
 			"headers": "",
-			"url": "https://slack.com/api/channels.unarchive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/channels.unarchive?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2056,7 +2056,7 @@
 		{
 			"id": "7a63d9d9-12e9-120d-54ca-afc3ef1ddcd0",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/dnd.info?token={{token}}",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2075,7 +2075,7 @@
 		{
 			"id": "7c8e659e-0028-1d25-a3f1-5f9229d6983f",
 			"headers": "",
-			"url": "https://slack.com/api/groups.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+			"url": "https://slack.com/api/groups.history?token={{token}}&channel=G1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2092,7 +2092,7 @@
 		{
 			"id": "7dce9acc-6e44-23ce-d4da-1b856bb5cd58",
 			"headers": "",
-			"url": "https://slack.com/api/channels.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&ts=1234567890",
+			"url": "https://slack.com/api/channels.mark?token={{token}}&channel=C1234567890&ts=1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2109,7 +2109,7 @@
 		{
 			"id": "80c55a70-9f8d-3577-af07-2db7dec9bcf1",
 			"headers": "",
-			"url": "https://slack.com/api/files.comments.edit?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&id=Fc1234567890&comment=Everyone should take a moment to read this file, seriously.\t",
+			"url": "https://slack.com/api/files.comments.edit?token={{token}}&file=F1234567890&id=Fc1234567890&comment=Everyone should take a moment to read this file, seriously.\t",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2128,7 +2128,7 @@
 		{
 			"id": "82a2b1d0-6b50-2d4b-15c0-e4f6abafde2f",
 			"headers": "",
-			"url": "https://slack.com/api/chat.update?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&ts=C1234567890&channel=C1234567890&text=Hello world\t&attachments=[{\"pretext\": \"pre-hello\", \"text\": \"text-world\"}]&parse=none&link_names=1&as_user=true",
+			"url": "https://slack.com/api/chat.update?token={{token}}&ts=C1234567890&channel=C1234567890&text=Hello world\t&attachments=[{\"pretext\": \"pre-hello\", \"text\": \"text-world\"}]&parse=none&link_names=1&as_user=true",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2147,7 +2147,7 @@
 		{
 			"id": "84686c90-2a4d-58f4-fc7b-375276b2bbb4",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.users.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC\t&include_disabled=1",
+			"url": "https://slack.com/api/usergroups.users.list?token={{token}}&usergroup=S0604QSJC\t&include_disabled=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2165,7 +2165,7 @@
 		{
 			"id": "85f7597a-f347-0b1f-8440-568f6fd41ce8",
 			"headers": "",
-			"url": "https://slack.com/api/files.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&user=U1234567890&channel=C1234567890&ts_from=123456789&ts_to=123456789&types=images&count=100&page=1",
+			"url": "https://slack.com/api/files.list?token={{token}}&user=U1234567890&channel=C1234567890&ts_from=123456789&ts_to=123456789&types=images&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2184,7 +2184,7 @@
 		{
 			"id": "86067911-d02d-e2a4-73bd-a7907fb718bb",
 			"headers": "",
-			"url": "https://slack.com/api/users.setPresence?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&presence=away",
+			"url": "https://slack.com/api/users.setPresence?token={{token}}&presence=away",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2201,7 +2201,7 @@
 		{
 			"id": "864a1d8d-73ec-62c0-c596-a00846959ad6",
 			"headers": "",
-			"url": "https://slack.com/api/channels.kick?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&user=U1234567890",
+			"url": "https://slack.com/api/channels.kick?token={{token}}&channel=C1234567890&user=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2218,7 +2218,7 @@
 		{
 			"id": "88562cbd-0cb8-d35f-d051-e2f47627ad32",
 			"headers": "",
-			"url": "https://slack.com/api/mpim.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
+			"url": "https://slack.com/api/mpim.history?token={{token}}&channel=&latest=1234567890.123456\t&oldest=now&inclusive=0&count=100&unreads=0",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2235,7 +2235,7 @@
 		{
 			"id": "8aa89e8f-6197-6481-9047-8428e0e14b09",
 			"headers": "",
-			"url": "https://slack.com/api/users.getPresence?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&users=U1234567890",
+			"url": "https://slack.com/api/users.getPresence?token={{token}}&users=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2252,7 +2252,7 @@
 		{
 			"id": "8b856b7e-ca86-c726-2e0b-0184cb6376f4",
 			"headers": "",
-			"url": "https://slack.com/api/mpim.mark?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890&ts=1234567890",
+			"url": "https://slack.com/api/mpim.mark?token={{token}}&channel=G1234567890&ts=1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2269,7 +2269,7 @@
 		{
 			"id": "8c31b723-a664-495a-b409-69435b1b2a26",
 			"headers": "",
-			"url": "https://slack.com/api/channels.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+			"url": "https://slack.com/api/channels.info?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2286,7 +2286,7 @@
 		{
 			"id": "8f5ced17-5152-9e76-7113-f3c2e877b031",
 			"headers": "",
-			"url": "https://slack.com/api/users.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&presence=1",
+			"url": "https://slack.com/api/users.list?token={{token}}&presence=1",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2303,7 +2303,7 @@
 		{
 			"id": "9117af8a-5136-d97f-44e9-8df4c9cdeb23",
 			"headers": "",
-			"url": "https://slack.com/api/team.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/team.info?token={{token}}",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2341,7 +2341,7 @@
 		{
 			"id": "9715e074-5368-8470-9f12-6a2b8c3d0d6b",
 			"headers": "",
-			"url": "https://slack.com/api/im.open?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=D1234567890&user=U1234567890",
+			"url": "https://slack.com/api/im.open?token={{token}}&channel=D1234567890&user=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2385,7 +2385,7 @@
 			"headers": "",
 			"method": "GET",
 			"pathVariables": {},
-			"url": "https://slack.com/api/auth.test?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/auth.test?token={{token}}",
 			"preRequestScript": "",
 			"tests": "",
 			"currentHelper": "normal",
@@ -2395,7 +2395,7 @@
 		{
 			"id": "9ada32f4-c772-ed00-0cde-7c981cda23f3",
 			"headers": "",
-			"url": "https://slack.com/api/users.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&users=U1234567890",
+			"url": "https://slack.com/api/users.info?token={{token}}&users=U1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2421,7 +2421,7 @@
 			"headers": "",
 			"method": "GET",
 			"pathVariables": {},
-			"url": "https://slack.com/api/channels.history?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
+			"url": "https://slack.com/api/channels.history?token={{token}}&channel=C1234567890&latest=1234567890.123456&oldest=1234567890.123456&inclusive=1&count=100&unreads=1",
 			"preRequestScript": "",
 			"tests": "",
 			"currentHelper": "normal",
@@ -2431,7 +2431,7 @@
 		{
 			"id": "a941a0be-3434-d291-2eaa-c2fa3042fe00",
 			"headers": "",
-			"url": "https://slack.com/api/groups.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&exclude_archived=0",
+			"url": "https://slack.com/api/groups.list?token={{token}}&exclude_archived=0",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2448,7 +2448,7 @@
 		{
 			"id": "aca3fb12-fd3a-effe-d8ce-be8ad6f175f9",
 			"headers": "",
-			"url": "https://slack.com/api/pins.add?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
+			"url": "https://slack.com/api/pins.add?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2466,7 +2466,7 @@
 		{
 			"id": "af5044ad-0091-f733-2a11-fd50c3f2a3ac",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&include_disabled=1&include_count=1&include_users=1",
+			"url": "https://slack.com/api/usergroups.list?token={{token}}&include_disabled=1&include_count=1&include_users=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2484,7 +2484,7 @@
 		{
 			"id": "b094817a-2f00-559f-5140-810e5e5e63e5",
 			"headers": "",
-			"url": "https://slack.com/api/groups.info?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.info?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2501,7 +2501,7 @@
 		{
 			"id": "b38e33e2-4882-c222-ca8e-126caa226bad",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.setSnooze?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&num_minutes=60",
+			"url": "https://slack.com/api/dnd.setSnooze?token={{token}}&num_minutes=60",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2520,7 +2520,7 @@
 		{
 			"id": "b659b5e5-f890-5fea-76ee-48a7027a8069",
 			"headers": "",
-			"url": "https://slack.com/api/reactions.list?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&user=U1234567890&full&count=100&page=1",
+			"url": "https://slack.com/api/reactions.list?token={{token}}&user=U1234567890&full&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2538,7 +2538,7 @@
 		{
 			"id": "c25e6676-802d-7d86-b6d7-7ceadad9819b",
 			"headers": "",
-			"url": "https://slack.com/api/dnd.endDnd?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/dnd.endDnd?token={{token}}",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2557,7 +2557,7 @@
 		{
 			"id": "c2b7de30-ce31-3c2e-a87e-eab2b2d69c85",
 			"headers": "",
-			"url": "https://slack.com/api/pins.remove?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t&channel=C1234567890",
+			"url": "https://slack.com/api/pins.remove?token={{token}}&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t&channel=C1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2575,7 +2575,7 @@
 		{
 			"id": "cadb3e93-4cf9-3a35-95f3-f06d46166399",
 			"headers": "",
-			"url": "https://slack.com/api/team.integrationLogs?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&service_id&app_id&user=U1234567890&change_type&count=100&page=1",
+			"url": "https://slack.com/api/team.integrationLogs?token={{token}}&service_id&app_id&user=U1234567890&change_type&count=100&page=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2594,7 +2594,7 @@
 		{
 			"id": "cb783e42-0456-7215-c437-79044db37635",
 			"headers": "",
-			"url": "https://slack.com/api/files.revokePublicUrl?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890",
+			"url": "https://slack.com/api/files.revokePublicUrl?token={{token}}&file=F1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2613,7 +2613,7 @@
 		{
 			"id": "cd76cad2-cac2-6328-c2f8-b1d76a051d13",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.update?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&name=My Test Team\t&handle=&description=&channels&include_count=1",
+			"url": "https://slack.com/api/usergroups.update?token={{token}}&usergroup=S0604QSJC&name=My Test Team\t&handle=&description=&channels&include_count=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2631,7 +2631,7 @@
 		{
 			"id": "ce8fe674-f6ab-fee0-081c-6a2748fda7ea",
 			"headers": "",
-			"url": "https://slack.com/api/files.comments.delete?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890&id=Fc1234567890",
+			"url": "https://slack.com/api/files.comments.delete?token={{token}}&file=F1234567890&id=Fc1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2650,7 +2650,7 @@
 		{
 			"id": "d038ef96-2fbc-2cb2-ed9e-5a2fdb91171d",
 			"headers": "",
-			"url": "https://slack.com/api/groups.archive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=G1234567890",
+			"url": "https://slack.com/api/groups.archive?token={{token}}&channel=G1234567890",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2667,7 +2667,7 @@
 		{
 			"id": "d70b99d3-05d3-5cfc-dde2-3cb070ab3c2c",
 			"headers": "",
-			"url": "https://slack.com/api/files.delete?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&file=F1234567890",
+			"url": "https://slack.com/api/files.delete?token={{token}}&file=F1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2686,7 +2686,7 @@
 		{
 			"id": "e3ccccfb-f485-a78a-fc91-5a65bae231fa",
 			"headers": "",
-			"url": "https://slack.com/api/reactions.remove?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&name=thumbsup&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456\t",
+			"url": "https://slack.com/api/reactions.remove?token={{token}}&name=thumbsup&file=F1234567890&file_comment=Fc1234567890&channel=C1234567890&timestamp=1234567890.123456\t",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2704,7 +2704,7 @@
 		{
 			"id": "e71fcd52-e4d1-b04a-3abf-a8926ae5bac6",
 			"headers": "",
-			"url": "https://slack.com/api/channels.rename?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&name=channel-name",
+			"url": "https://slack.com/api/channels.rename?token={{token}}&channel=C1234567890&name=channel-name",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2721,7 +2721,7 @@
 		{
 			"id": "ec089e74-0ec7-ef1a-dd3c-b98f124faaff",
 			"headers": "",
-			"url": "https://slack.com/api/pins.remove?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
+			"url": "https://slack.com/api/pins.remove?token={{token}}&channel=C1234567890&file=F1234567890&file_comment=Fc1234567890&timestamp=1234567890.123456\t",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2739,7 +2739,7 @@
 		{
 			"id": "ee5de8dc-781b-3daa-1c17-6cd922f8f482",
 			"headers": "",
-			"url": "https://slack.com/api/users.setActive?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5",
+			"url": "https://slack.com/api/users.setActive?token={{token}}",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2777,7 +2777,7 @@
 		{
 			"id": "fea9a608-cd7f-343f-e59b-18f910292e7d",
 			"headers": "",
-			"url": "https://slack.com/api/chat.delete?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&ts=1405894322.002768&channel=C1234567890",
+			"url": "https://slack.com/api/chat.delete?token={{token}}&ts=1405894322.002768&channel=C1234567890",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -2796,7 +2796,7 @@
 		{
 			"id": "ffffed35-b133-572c-ada8-a62b58409937",
 			"headers": "",
-			"url": "https://slack.com/api/usergroups.users.update?token=xoxp-1234567890-1234567890-1234567890-a1b2c3d4e5&usergroup=S0604QSJC&users=U060R4BJ4,U060RNRC&include_count=1",
+			"url": "https://slack.com/api/usergroups.users.update?token={{token}}&usergroup=S0604QSJC&users=U060R4BJ4,U060RNRC&include_count=1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
